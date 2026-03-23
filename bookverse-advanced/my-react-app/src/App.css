@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.row {
+  justify-content: center;
+}
