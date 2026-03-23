@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9a066;
+    padding: 15px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    border-radius: 5px;
+}
+
+/* Menu */
+.menu button {
+    padding: 8px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #333;
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Profile Section */
+.container {
+    display: none; /* hidden initially */
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: #d9a066;
+    display: none;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Student Image */
+.student-image img {
+    border-radius: 50%;
+}
+
+/* Student Info */
+.student-info {
+    font-size: 18px;
+}
